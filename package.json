@@ -7,12 +7,13 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "gh-pages -d out/_next"
+    "deploy": "gh-pages -d out"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-source-maps": "0.0.3",
     "gh-pages": "^3.1.0",
     "isomorphic-unfetch": "^2.0.0",
     "next": "^9.4.4",
